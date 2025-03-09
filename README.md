@@ -39,7 +39,7 @@
 
    ```bash
    python webpage2pdf_bundle.py
-    On first run, the script will create a virtual environment (in the venv folder), install required dependencies, and relaunch itself automatically.
+    # On first run, the script will create a virtual environment (in the venv folder), install required dependencies, and relaunch itself automatically.
 
 4. **Follow the GUI Prompts:**
 
