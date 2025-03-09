@@ -1,6 +1,6 @@
 ### How to Set Up and Use WebPage2PDF Bundle
 
-1.  bashCopypip install pdfkit PyPDF2(Linux users may need to install tkinter—often via your package manager, e.g., sudo apt-get install python3-tk.)
+1.  bash pip install pdfkit PyPDF2(Linux users may need to install tkinter—often via your package manager, e.g., sudo apt-get install python3-tk.)
     
 2.  **Install wkhtmltopdf:**Download and install wkhtmltopdf from wkhtmltopdf.org/downloads.html.The tool’s default path assumes:
     
