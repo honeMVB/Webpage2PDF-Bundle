@@ -60,6 +60,10 @@
         
 
     *   For separate mode, individual PDFs are saved in the chosen output directory.
+  
+
+
+![Webpage2pdf_bundle](https://github.com/user-attachments/assets/94526b49-44fe-4454-af4a-3e2974082826)
 
 
      
