@@ -1,5 +1,6 @@
 # WebPage2PDF Bundle
 
+
 **WebPage2PDF Bundle** is a Windows‑focused, user‑friendly tool that converts website URLs from a CSV file into PDF documents. Users can choose to merge all webpages into one PDF or save each webpage as its own PDF. Advanced wkhtmltopdf settings (page size, orientation, margins) are available without any code changes. The tool includes a responsive GUI with a progress bar, estimated time remaining, detailed logging, and cancel functionality.
 
 ## Features
@@ -27,26 +28,29 @@
 
 ## How to Use
 
-1. **Download the Files:**  
+1.  **Install wkhtmltopdf:** Download and install wkhtmltopdf from wkhtmltopdf.org/downloads.html.The tool’s default path assumes:
+
+2. **Download the Files:**  
    – `webpage2pdf_bundle.py`  
    – `README.md`
 
-2. **Run the Tool:**  
+3. **Run the Tool:**  
    Simply double‑click `webpage2pdf_bundle.py` or run it from the command prompt:
 
    ```bash
    python webpage2pdf_bundle.py
     On first run, the script will create a virtual environment (in the venv folder), install required dependencies, and relaunch itself automatically.
 
-3. **Follow the GUI Prompts:**
-    
+4. **Follow the GUI Prompts:**
+
     *   **CSV File:** Browse and select your CSV file containing one website URL per row.
         
     *   **wkhtmltopdf Path:** Verify or change the path to the wkhtmltopdf executable (default is set for Windows).
-        
+
     *   **Output Mode:** Choose whether to merge all webpages into one PDF or save individual PDFs.
         
     *   **Advanced Options:** Adjust page size, orientation, and margins as needed.
+
         
     *   **Start Conversion:** Click the "Start Conversion" button and monitor progress. Use the "Cancel" button if needed.
         
@@ -54,5 +58,9 @@
     
     *   For merged mode, the final PDF is saved as specified.
         
+
     *   For separate mode, individual PDFs are saved in the chosen output directory.
+
+
+     
 
