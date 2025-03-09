@@ -1,6 +1,6 @@
 ### How to Set Up and Use WebPage2PDF Bundle
 
-1.  bash pip install pdfkit PyPDF2(Linux users may need to install tkinter—often via your package manager, e.g., sudo apt-get install python3-tk.)
+1.  pip install pdfkit PyPDF2   (Linux users may need to install tkinter—often via your package manager, e.g., sudo apt-get install python3-tk.)
     
 2.  **Install wkhtmltopdf:**Download and install wkhtmltopdf from wkhtmltopdf.org/downloads.html.The tool’s default path assumes:
     
@@ -10,7 +10,7 @@
         
 3.  **Prepare Your CSV File:**Create a CSV file containing one website URL per row(do it yourself or you can search and use a tool online).
     
-4.  bashCopypython main.py
+4.  then run in your terminal with  python main.py
     
 5.  **Follow the GUI Prompts:**
     
