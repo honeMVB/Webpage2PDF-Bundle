@@ -1,7 +1,7 @@
 # WebPage2PDF Bundle
 
 
-**WebPage2PDF Bundle** is a Windows‑focused, user‑friendly tool that converts website URLs from a CSV file into PDF documents. Users can choose to merge all webpages into one PDF or save each webpage as its own PDF. Advanced wkhtmltopdf settings (page size, orientation, margins) are available without any code changes. The tool includes a responsive GUI with a progress bar, estimated time remaining, detailed logging, and cancel functionality.
+**WebPage2PDF Bundle** is a Windows‑focused, "user-friendly" tool that converts websites from URLs in a CSV file to PDF documents. Users can choose to merge all webpages into one PDF or save each webpage as its own PDF. wkhtmltopdf settings (page size, orientation, margins) are available without any code changes. The tool includes a GUI with a progress bar, estimated time remaining, detailed logging, and cancel functionality.
 
 ## Features
 
@@ -17,7 +17,7 @@
 - **Concurrent Processing:**  
   – Converts webpages concurrently while updating a progress bar and estimating remaining time.
   
-- **Robust Logging & Cancel:**  
+- **Logging & Cancel:**  
   – Detailed log output is displayed on‑screen and saved to `conversion.log`.
   – Easily cancel the conversion process at any time.
 
